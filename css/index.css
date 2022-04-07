@@ -1,0 +1,408 @@
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+body{
+  height: 2000px;
+  background-color: #cececc;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.top a:hover{
+  text-decoration: none !important;
+}
+.top{
+  background-color: #E3E4E5;
+}
+.top .w{
+  height: 30px;
+  display: flex;
+}
+.top .left{
+  align-items: center;
+  display: flex;
+}
+.top .left img{
+  vertical-align: middle;
+}
+.top .left span{
+  font-size: 14px;
+  color: #999999;
+}
+.top .right ul{
+  width: 850px;
+  display: flex;
+  justify-content: space-around;
+}
+.top .right ul li{
+  color: #999999;
+  line-height: 30px;
+}
+.top .right li a{
+  color: #999999;
+}
+.top .right li a:hover{
+  color: red;
+}
+.top .right .login,.top .right .com{
+  color: red;
+}
+.top .right{
+  margin-left: 260px;
+  /* background-color: pink; */
+}
+/* 第二部分，京东搜索 */
+.jd-ser{
+  background-color: #fff;
+  height: 140px;
+  /* border-bottom: 1px solid #cececc; */
+}
+.jd-ser .w{
+  /* background-color: pink; */
+  display: flex;
+}
+.jd-ser .logo{
+  width: 190px;
+  height: 120px;
+  overflow: hidden;
+}
+.jd-ser .w .logo a{
+  width: 190px;
+  height: 120px !important;
+}
+.jd-ser .logo img{
+  overflow: hidden;
+}
+.jd-ser .serch{
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+.jd-ser .serch input{
+  width: 490px;
+  height: 35px;
+  border-color: red;
+  outline: none;
+}
+.jd-ser .serch button{
+  width: 60px;
+  height: 35px;
+  background-color: red;
+  outline: none;
+  border: none;
+}
+.icon-sousuo1{
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
+.jd-ser .cart{
+  width: 130px;
+  height: 40px;
+  border: 1px solid #cececc;
+  margin-top: 40px;
+}
+.cart:hover{
+  border-color: #e1251b;
+}
+.icon-gouwuchekong{
+  color: #e1251b;
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.cart span{
+  position: relative;
+}
+.cart span::after {
+  content: "0";
+  position: absolute;
+  top: -9px;
+  right: -11px;
+  background-color: #e1251b;
+  color: #fff;
+  font-size: 12px;
+  width: 19px;
+  height: 14px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 14px;
+}
+.cart a{
+  color: #e1251b;
+  font-size: 14px;
+}
+.skII{
+  margin-left: 40px;
+  width: 200px;
+  height: 115px;
+}
+.skII img{
+  width: 200px;
+  height: 115px;
+}
+/* 秒杀 */
+.litter-w{
+  width: 750px;
+  margin: 0 auto;
+  margin-left: 240px;
+}
+.kill{
+height: 20px;
+/* background-color: pink; */
+padding-bottom: 30px;
+border-bottom: 1px solid #cececc;
+}
+
+.kill li a:hover{
+  text-decoration: none !important;
+  color: #e1251b;
+}
+.kill .quiry-kill,.kill .coupon{
+  color: red;
+}
+.kill ul{
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-around;
+}
+.kill li a{
+  margin-top: -10px;
+color: #333;
+font-size: 18px;
+}
+main{
+  margin-top: 15px;
+  height: 470px;
+}
+main .w a{
+  color: #333;
+}
+main .w{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+main .w .menu li:first-child{
+  margin-top: 10px;
+}
+main .w .menu li{
+  padding-left: 20px;
+  width: 190px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+}
+main .w .mebu li:hover{
+  background-color: #ccc;
+}
+main .w a:hover{
+  text-decoration: none !important;
+  color: #e1251b;
+}
+main .w{
+  height: 470px;
+  /* background-color: pink; */
+}
+main .carouel-row{
+  width: 590px;
+  height: 470px;
+}
+main .carouel-row img{
+  width: 590px;
+  height: 470px;
+}
+main .carouel-vert{
+  width: 200px;
+}
+main .carouel-vert li{
+  width: 200px;
+  height: 165px;
+}
+main .carouel-vert li img{
+  width: 200px;
+  height: 160px;
+}
+.carouel-row{
+  margin-left: -20px;
+}
+.carouel-vert{
+  margin-right: -25px;
+}
+.box{
+  margin-left: 10px;
+}
+.w-hi{
+  width: 182px;
+  margin: 0 auto;
+}
+
+.box{
+  width: 220px;
+  height: 470px;
+  overflow: hidden;
+}
+header{
+overflow: hidden;
+}
+header .w-hi{
+  height: 60px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.logo-hi{
+  float: left;
+  margin-left: 10px;
+  width: 56px;
+  height: 50px;
+}
+.logo-hi img{
+  width: 100%;
+  height: 100%;
+}
+.nav{
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+ color: #0000EE;
+ font-size: 12px;
+  
+}
+.nav p{
+  color: #333333;
+  font-size: 12px;
+}
+.person .w-hi{
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 1px dotted #A2A2A2;
+}
+.person-left{
+  float: left;
+  margin-left: 10px;
+}
+.person a{
+  display: inline-block;
+  width: 73px;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+}
+.person-left a{
+  color: #fff;
+  background-color: red;
+}
+.person-left a:hover{
+  background-color: pink;
+  color: red;
+}
+.person-right a:hover{
+  color: #fff !important;
+  background-color: #d63751 !important;
+}
+.person-right a{
+  background-color: #363634;
+  color: #DACD8A !important;
+}
+.person-right{
+  margin-right: 15px;
+  float: right;
+}
+.more .w-hi{
+   height: 40px;
+  background-color: #fff;
+}
+.more-left{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+}
+.more-right{
+  margin-top: 10px;
+  float: right;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #A2A2A2;
+
+}
+.hot{
+  margin-top: -2px;
+}
+.hot .w-hi{
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 1px dotted #A2A2A2;
+}
+
+.hot span{
+  margin-left: 10px;
+  margin-top: -2px;
+  float: left;
+  width: 33px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  color: red;
+  background-color: #FDEEED;
+  font-size: 12px;
+}
+.hot ul li i{
+  color: #0000EE;
+  margin-top: -3px;
+  float: left;
+  margin-left: 5px;
+  width: 130px;
+  height: 20px;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.pic .w-hi{
+padding-top: 10px;
+  height: 300px;
+  background-color: #fff;
+}
+.pic ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.pic li{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+}
+.pic a{
+  display: inline-block;
+  width: 25px;
+  height: 35px;
+}
+.pic a img{
+  width: 100%;
+  height: 100%;
+}
+.pic .pic2h{
+  display: none;
+}
+.pic a:hover .pic2{
+  display: none;
+}
+.pic a:hover .pic2h{
+  display: block;
+}
+.pic p{
+ width: 30px;
+ height: 18px;
+ font-size: 14px;
+ color: #333333;
+}
